@@ -73,14 +73,14 @@ http://localhost:3000/
 
 # Servicios Básicos Examples
 
-1.1 - Hacer Hash de Password enviado (el hash se guarda en DB)
+# 1.1 - Hacer Hash de Password enviado (el hash se guarda en DB)
 http://localhost:3000/request_passcode
 JSON POST
 {
 	"pass": "12345678abc"
 }
 
-1.2 - Crear Wallet
+# 1.2 - Crear Wallet
 http://localhost:3000/wallet
 JSON POST
 {
@@ -90,18 +90,18 @@ JSON POST
 }
 
 
-2.1 - Explorador de Wallet´s en NODO Array de Wallets
+# 2.1 - Explorador de Wallet´s en NODO Array de Wallets
 http://localhost:3000/wallet_explore
 GET Request 
 
-2.2 - Obtiene la Wallet dado el ID
+# 2.2 - Obtiene la Wallet dado el ID
 http://localhost:3000/recupera_wallet
 JSON POST 
 {
 	"ide":0
 }
 
-3.1 - Transacciones 
+# 3.1 - Transacciones 
 http://localhost:3000/transaction_me_to
 JSON POST 
 {
@@ -110,11 +110,11 @@ JSON POST
 	"amount": 15
 }
 
-3.2 - Transacciones en MEMORY POOL
+# 3.2 - Transacciones en MEMORY POOL
 http://localhost:3000/transactions
 GET Request
 
-4. - Explorador de Bloques 
+# 4 - Explorador de Bloques 
 http://localhost:3000/blocks
 GET Request
 
