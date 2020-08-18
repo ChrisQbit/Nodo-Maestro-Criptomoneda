@@ -26,7 +26,7 @@ Otorgar PERMISOS Full a Carpeta del Nodo
 
 # Uso Como Servidor Independiente 
 
-- Clonar de 
+- Clonar de https://github.com/ChrisQbit/Nodo-Maestro-Criptomoneda.git
 - npm install
 - Composer Install
 
