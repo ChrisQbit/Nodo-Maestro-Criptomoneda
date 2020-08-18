@@ -70,3 +70,11 @@ Tome en cuenta que el host el donde se aloja el NODO, de ser el caso sustituya l
 http://localhost:3000/
 
 
+
+
+
+# Licencia
+Código publicado bajo la licencia MIT .
+
+Derechos de autor 2019-2021 Christian Padilla
+Qbit-Services 
